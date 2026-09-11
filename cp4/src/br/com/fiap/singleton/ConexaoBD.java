@@ -15,8 +15,8 @@ public class ConexaoBD {
 
             // URL padronizada para o banco da FIAP
             String url = "jdbc:oracle:thin:@oracle.fiap.com.br:1521:ORCL";
-            String usuario = "rm565281";
-            String senha = "101005";
+            String usuario = "";
+            String senha = "";
             conexao = DriverManager.getConnection(url, usuario, senha);
 
         } catch (ClassNotFoundException e) {
